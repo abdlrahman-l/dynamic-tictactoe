@@ -8,7 +8,12 @@
 		<title>Astro Basics</title>
 	</head>
 	<body>
-		<slot />
+		<main class="min-h-screen">
+			<slot />
+		</main>
+        <div class='sticky bottom-0 left-0 bg-white'>
+			Created by: <a href="https://abdlrahman-l.github.io/" class="text-sky-500 underline">Abdul Rahman</a>
+		</div>
 	</body>
 </html>
 
